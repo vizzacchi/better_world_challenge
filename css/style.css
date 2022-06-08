@@ -138,9 +138,21 @@ article.article-home-content {
     margin: 2rem auto;
 }
 .card-perfil{
+    color: #F7A408;
     text-align: right;
     margin: 0.5rem;
+    font-weight: 600;
 }
+.card-perfil:hover{
+    color: #16FF6F;
+    transition: 0.5s;
+}
+.card-map{
+    width: 90%;
+    margin: 10px auto;
+}
+
+
 .card_voluntario{
     font-size: 2rem;
 }
@@ -150,7 +162,7 @@ article.article-home-content {
 }
 /********** Footer **********/
 footer {
-    padding: 3rem 0 !important;
+    paddin: 3rem 0 !important;
 	color: #3D405B;
 	background-color: #F7A408;
 }
