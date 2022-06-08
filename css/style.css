@@ -130,7 +130,20 @@ article.article-home-content {
     top: 0;
 }
 /****************************/
-
+.card{
+    margin: 2rem auto;
+}
+.card-perfil{
+    text-align: right;
+    margin: 0.5rem;
+}
+.card_voluntario{
+    font-size: 2rem;
+}
+.match{
+    color: #18ff6d;
+    font-weight: 900;
+}
 /********** Footer **********/
 footer {
     padding: 3rem 0 !important;
