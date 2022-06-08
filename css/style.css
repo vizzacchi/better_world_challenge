@@ -162,7 +162,7 @@ article.article-home-content {
 }
 /********** Footer **********/
 footer {
-    paddin: 3rem 0 !important;
+    padding: 3rem 0 !important;
 	color: #3D405B;
 	background-color: #F7A408;
 }
