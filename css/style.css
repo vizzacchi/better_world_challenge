@@ -181,5 +181,6 @@ footer ul li {
     }
 }
 .img-thumbnail{
-    height: 100px;
+    height: 150px;
+    border-image: round;
 }
