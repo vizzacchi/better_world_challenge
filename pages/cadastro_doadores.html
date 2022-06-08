@@ -73,7 +73,7 @@
 		<!----- Conteúdo ----->
 		<main class="main-page container">
 			<section>
-				<h1>Cadastro Voluntários</h1>
+				<h1>Formulário de cadastro</h1>
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
 						<li class="breadcrumb-item"><a href="../index.html">Home</a></li>
@@ -89,35 +89,41 @@
 					<!------- Empresa ------->
 					<div class="card mb-4">
 						<div class="card-body">
-							<h5 class="card-title mb-3">Dados Pessoais</h5>
+							<h5 class="card-title mb-3">Empresa</h5>
 							<div class="row">
 								<div class="col-md-6 mb-4">
 									<div class="form-floating">
 										<input type="text" class="form-control" id="razao_social">
-										<label for="razao_social">Nome</label>
+										<label for="razao_social">Razão Social</label>
 									</div>
 								</div>
 								<div class="col-md-6 mb-4">
 									<div class="form-floating">
 										<input type="text" class="form-control" id="nome_fantasia">
-										<label for="nome_fantasia">Sobrenome</label>
+										<label for="nome_fantasia">Nome Fantasia</label>
 									</div>
 								</div>
 								<div class="col-md-4 mb-4">
 									<div class="form-floating">
 										<input type="text" class="form-control" id="cnpj">
-										<label for="cnpj">CPF</label>
+										<label for="cnpj">CNPJ</label>
+									</div>
+								</div>
+								<div class="col-md-4 mb-4">
+									<div class="form-floating">
+										<input type="text" class="form-control" id="ie">
+										<label for="ie">IE/IM</label>
 									</div>
 								</div>
 								<div class="col-md-4 mb-4">
 									<div class="form-floating">
 										<select class="form-select" id="tipo" aria-label="Floating label select example">
 											<option selected>Selecione...</option>
-											<option value="1">Masculino</option>
-											<option value="2">Femino</option>
-											<option value="3">Outro</option>
+											<option value="1">Restaurante</option>
+											<option value="2">Mercado</option>
+											<option value="3">Feirante</option>
 										</select>
-										<label for="tipo">Genero</label>
+										<label for="tipo">Tipo</label>
 									</div>
 								</div>
 							</div>
@@ -194,37 +200,8 @@
 								</div>
 								<div class="col-md-2 mb-4">
 									<div class="form-floating">
-										<select class="form-select" id="tipo" aria-label="Floating label select example">
-											<option selected>Selecione...</option>
-											<option value="AC">Acre</option>
-											<option value="AL">Alagoas</option>
-											<option value="AP">Amapá</option>
-											<option value="AM">Amazonas</option>
-											<option value="BA">Bahia</option>
-											<option value="CE">Ceará</option>
-											<option value="DF">Distrito Federal</option>
-											<option value="ES">Espirito Santo</option>
-											<option value="GO">Goiás</option>
-											<option value="MA">Maranhão</option>
-											<option value="MS">Mato Grosso do Sul</option>
-											<option value="MT">Mato Grosso</option>
-											<option value="MG">Minas Gerais</option>
-											<option value="PA">Pará</option>
-											<option value="PB">Paraíba</option>
-											<option value="PR">Paraná</option>
-											<option value="PE">Pernambuco</option>
-											<option value="PI">Piauí</option>
-											<option value="RJ">Rio de Janeiro</option>
-											<option value="RN">Rio Grande do Norte</option>
-											<option value="RS">Rio Grande do Sul</option>
-											<option value="RO">Rondônia</option>
-											<option value="RR">Roraima</option>
-											<option value="SC">Santa Catarina</option>
-											<option value="SP">São Paulo</option>
-											<option value="SE">Sergipe</option>
-											<option value="TO">Tocantins</option>
-										</select>
-										<label for="tipo">UF</label>
+										<input type="email" class="form-control" id="uf">
+										<label for="uf">UF</label>
 									</div>
 								</div>
 							</div>
