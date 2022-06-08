@@ -192,8 +192,11 @@ footer ul li {
     article.article-home-content {
        margin-top: -15rem;
     }
-}   /* imagens */
+}
+
+/********** Imagens *********/
 .img-thumbnail{
     height: 150px;
-    border-image: round;
+    margin: 0 .6rem;
+    border-radius: 50%;
 }
