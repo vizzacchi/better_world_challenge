@@ -32,15 +32,15 @@ html {
 }
 
 /********** Header **********/
-.navbar.bg-blue {
-    background-color: #CCD5AE !important;
+.navbar.bg-green {
+    background-color: #16FF6F !important;
 }
 .navbar .navbar-brand img {
 	width: 4rem;
 }
 .navbar .nav-item.login i {
     font-size: 2.4rem;
-	color: #E07A5F;
+	color: #000;
 }
 /****************************/
 
@@ -135,7 +135,7 @@ article.article-home-content {
 footer {
     padding: 3rem 0 !important;
 	color: #3D405B;
-	background-color: #d6ccc2;
+	background-color: #F7A408;
 }
 footer ul li {
     font-size: 1.4rem;
