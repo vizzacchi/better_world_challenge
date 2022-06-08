@@ -93,6 +93,7 @@ article.article-home-content {
 
 /*********** Card ***********/
 .card {
+    margin: 2rem 0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .card img {
@@ -110,7 +111,28 @@ article.article-home-content {
     color: #3D405B;
     font-weight: 700;
 }
-.reserva{
+.card-perfil {
+    color: #F7A408;
+    text-align: right;
+    margin: 0.5rem;
+    font-weight: 600;
+}
+.card-perfil:hover {
+    color: #16FF6F;
+    transition: 0.5s;
+}
+.card-map {
+    width: 90%;
+    margin: 10px auto;
+}
+.card_voluntario {
+    font-size: 2rem;
+}
+.match {
+    color: #18ff6d;
+    font-weight: 900;
+}
+.reserva {
     position: absolute;
     bottom: 10px;
     width: 90%;
@@ -134,32 +156,7 @@ article.article-home-content {
     top: 0;
 }
 /****************************/
-.card{
-    margin: 2rem 1rem;
-}
-.card-perfil{
-    color: #F7A408;
-    text-align: right;
-    margin: 0.5rem;
-    font-weight: 600;
-}
-.card-perfil:hover{
-    color: #16FF6F;
-    transition: 0.5s;
-}
-.card-map{
-    width: 90%;
-    margin: 10px auto;
-}
 
-
-.card_voluntario{
-    font-size: 2rem;
-}
-.match{
-    color: #18ff6d;
-    font-weight: 900;
-}
 /********** Footer **********/
 footer {
     padding: 3rem 0 !important;
